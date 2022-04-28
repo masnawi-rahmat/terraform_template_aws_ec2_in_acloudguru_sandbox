@@ -21,7 +21,7 @@ resource "aws_instance" "demoserver1" { # 1st ec2 instance
   vpc_security_group_ids = [aws_security_group.main.id]
 
   tags= {
-    Name = "demo.server1"
+    Name = "demo.server1" # name of your choice
   }
 
 connection {
@@ -40,7 +40,7 @@ resource "aws_instance" "demoserver2" { # 2nd ec2 instance
   vpc_security_group_ids = [aws_security_group.main.id]
 
   tags= {
-    Name = "demo.server2"
+    Name = "demo.server2" # name of your choice
   }
 
 connection {
