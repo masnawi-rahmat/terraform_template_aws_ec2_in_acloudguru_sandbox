@@ -28,7 +28,7 @@ connection {
     type        = "ssh"
     host        = self.public_ip
     user        = "ubuntu" # default name (root user)
-    private_key = file("/home/masnawi/.ssh/mytestserver.pem") # your rsa private key file name and path
+    private_key = file("/home/YourUserName/.ssh/YourRSAPrivateKeyFileName.pem") # your rsa private key file name and path
     timeout     = "4m"
   }
 }
